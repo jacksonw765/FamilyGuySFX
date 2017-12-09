@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/FamilyGuyApp.iml" filepath="$PROJECT_DIR$/.idea/FamilyGuyApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FamilyGuyApp.iml" filepath="$PROJECT_DIR$/FamilyGuyApp.iml" />
+      <module fileurl="file://C:\Users\jacks\Documents\Family Guy App\FamilyGuyApp\.idea\FamilyGuyApp.iml" filepath="C:\Users\jacks\Documents\Family Guy App\FamilyGuyApp\.idea\FamilyGuyApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
