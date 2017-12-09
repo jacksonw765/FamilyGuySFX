@@ -8,25 +8,45 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button button_peter_tada;
-    public Button button_peter_cares;
+    //peter buttons
+    public Button buttonPeterTada;
+    public Button buttonPeterCares;
+    public Button buttonPeterMeg;
+    public Button buttonPeterRoadhouse;
 
-
-    public Button button_bruce_OhNo;
+    //bruce buttons
+    public Button buttonBruceOhNo;
+    public Button buttonBruceAnus;
+    public Button buttonBruceDoThat;
+    public Button buttonBruceLetsTalk;
+    public Button buttonBruceLiveAlone;
+    public Button buttonBrucePullingLegs;
+    public Button buttonBruceThatsAlright;
+    public Button buttonBruceOhHey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button_peter_tada = this.findViewById(R.id.TaDa);
-        button_peter_cares = this.findViewById(R.id.Cares);
-        button_bruce_OhNo = this.findViewById(R.id.OhNo);
+        //peter init
+        buttonPeterTada = this.findViewById(R.id.TaDa);
+        buttonPeterCares = this.findViewById(R.id.Cares);
+        buttonPeterRoadhouse = this.findViewById(R.id.button_peter_roadhouse);
+        buttonPeterMeg = this.findViewById(R.id.button_peter_shutupmeg);
 
+        //bruce init
+        buttonBruceOhNo = this.findViewById(R.id.OhNo);
+        buttonBruceOhHey = this.findViewById(R.id.button_bruce_ohHey);
+        buttonBruceThatsAlright = this.findViewById(R.id.button_bruce_thatsalright);
+        buttonBrucePullingLegs = this.findViewById(R.id.button_bruce_pullinglegs);
+        buttonBruceLiveAlone = this.findViewById(R.id.button_bruce_livealone);
+        buttonBruceLetsTalk = this.findViewById(R.id.button_bruce_letstalk);
+        buttonBruceAnus = this.findViewById(R.id.button_bruce_anus);
+        buttonBruceDoThat = this.findViewById(R.id.button_bruce_dothat);
 
-
-
-        button_peter_tada.setOnClickListener(new View.OnClickListener() {
+        //peter listeners
+        buttonPeterTada.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_tada);
@@ -36,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button_peter_cares.setOnClickListener(new View.OnClickListener() {
+        buttonPeterCares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_whocares);
@@ -46,10 +66,103 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button_bruce_OhNo.setOnClickListener(new View.OnClickListener() {
+        buttonPeterMeg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_shutupmeg);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonPeterRoadhouse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_roadhouse);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        //bruce listeners
+
+
+        buttonBruceOhNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_ohno);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBruceAnus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_anus);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBruceDoThat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_candothat);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBruceLetsTalk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_letstalk);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBruceLiveAlone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_livealone);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBrucePullingLegs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_pullinglegs);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBruceThatsAlright.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_thatsalright);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonBruceOhHey.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_ohhey);
                 if(!mp.isPlaying()) {
                     mp.start();
                 }
