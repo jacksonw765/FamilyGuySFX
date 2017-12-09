@@ -1,40 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jacksonw765.familyguysfx.MainActivity"
-    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f0f8ff">
 
         <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="179dp"
-                android:layout_height="287dp"
+                android:layout_width="wrap_content"
+                android:layout_height="267dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
                 app:srcCompat="@drawable/familyguy" />
 
+            <TextView
+                android:id="@+id/textPeter"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12pt"
+                android:typeface="sans"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:text="Peter" />
+
+            <Button
+                android:id="@+id/TaDa"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="Tada" />
+            <Button
+                android:id="@+id/Cares"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Nobody Cares"/>
+
+            <TextView
+                android:id="@+id/textBruce"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12pt"
+                android:typeface="sans"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:text="Bruce" />
+
+
+            <Button
+                android:id="@+id/OhNo"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Oh No!"/>
+
+            <Button
+                android:id="@+id/legal"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="300pd"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:text="Legal Notice" />
+
         </GridLayout>
-
-        <Button
-            android:id="@+id/TaDa"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Peter: Tada" />
-
 
     </ScrollView>
 
 
 
-
-
-</RelativeLayout>
