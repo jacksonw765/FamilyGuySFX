@@ -34,5 +34,25 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonCares.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.whocares);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonOhNo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.ohno);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
     }
 }
