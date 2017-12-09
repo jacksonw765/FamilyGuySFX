@@ -8,74 +8,233 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#f0f8ff">
 
-        <GridLayout
-            android:layout_width="match_parent"
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="267dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/familyguy" />
+
+        <TextView
+            android:id="@+id/textPeter"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_gravity="center"
+            android:paddingBottom="8dp"
+            android:text="Peter"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:typeface="sans" />
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="267dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                app:srcCompat="@drawable/familyguy" />
+        <Button
+            android:id="@+id/TaDa"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_blue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Tada"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
 
-            <TextView
-                android:id="@+id/textPeter"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="12pt"
-                android:typeface="sans"
-                android:paddingBottom="5dp"
-                android:textStyle="bold"
-                android:text="Peter" />
+        <Button
+            android:id="@+id/Cares"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_blue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Who Cares"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
 
-            <Button
-                android:id="@+id/TaDa"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:text="Tada" />
-            <Button
-                android:id="@+id/Cares"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:text="Nobody Cares"/>
+        <Button
+            android:id="@+id/button_peter_shutupmeg"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_blue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Shutup meg"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
 
-            <TextView
-                android:id="@+id/textBruce"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:layout_gravity="center"
-                android:textSize="12pt"
-                android:typeface="sans"
-                android:padding="12dp"
-                android:textStyle="bold"
-                android:text="Bruce" />
+        <Button
+            android:id="@+id/button_peter_roadhouse"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_blue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Roadhouse"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <View style="@style/Divider"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textBruce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="8dp"
+            android:paddingBottom="10dp"
+            android:text="Bruce"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/button_bruce_anus"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Anus"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/OhNo"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Oh no"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_bruce_dothat"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="I Can Do That"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_bruce_letstalk"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:text="Let's Talk"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_bruce_livealone"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Live Alone"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_bruce_ohHey"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="I can do that"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_bruce_pullinglegs"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Pulling Legs"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_bruce_thatsalright"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_green"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="That's Alright"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
 
 
-            <Button
-                android:id="@+id/OhNo"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:text="Oh No!"/>
+        <Button
+            android:id="@+id/legal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="Legal Notice" />
 
-            <Button
-                android:id="@+id/legal"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:layout_width="200dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:text="Legal Notice" />
+    </GridLayout>
 
-        </GridLayout>
-
-    </ScrollView>
+</ScrollView>
 
 
 

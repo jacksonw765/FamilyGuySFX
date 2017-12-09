@@ -8,23 +8,25 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Button buttonTada;
-    public Button buttonCares;
-    public Button buttonOhNo;
+    public Button button_peter_tada;
+    public Button button_peter_cares;
+
+
+    public Button button_bruce_OhNo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonTada = this.findViewById(R.id.TaDa);
-        buttonCares = this.findViewById(R.id.Cares);
-        buttonOhNo = this.findViewById(R.id.OhNo);
+        button_peter_tada = this.findViewById(R.id.TaDa);
+        button_peter_cares = this.findViewById(R.id.Cares);
+        button_bruce_OhNo = this.findViewById(R.id.OhNo);
 
 
 
 
-        buttonTada.setOnClickListener(new View.OnClickListener() {
+        button_peter_tada.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_tada);
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonCares.setOnClickListener(new View.OnClickListener() {
+        button_peter_cares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_whocares);
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonOhNo.setOnClickListener(new View.OnClickListener() {
+        button_bruce_OhNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_ohno);
