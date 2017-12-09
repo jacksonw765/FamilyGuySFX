@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         buttonTada.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.tada);
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_tada);
                 if(!mp.isPlaying()) {
                     mp.start();
                 }
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         buttonCares.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.whocares);
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_whocares);
                 if(!mp.isPlaying()) {
                     mp.start();
                 }
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         buttonOhNo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.ohno);
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_ohno);
                 if(!mp.isPlaying()) {
                     mp.start();
                 }
