@@ -44,6 +44,12 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonQuagmireParkingTicket;
     private Button buttonQuagmireWaHey;
 
+    //button Chris
+    private Button buttonChrisPoo;
+    private Button buttonChrisMonkey;
+    private Button buttonChrisSoul;
+    private Button buttonChrisPee;
+
     private AdView adview;
     private RelativeLayout layout;
     private Button legal;
@@ -89,6 +95,12 @@ public class MainActivity extends AppCompatActivity {
         buttonQuagmireNeatIdea = this.findViewById(R.id.button_quagmire_neatidea);
         buttonQuagmireParkingTicket = this.findViewById(R.id.button_quagmire_parkingticket);
         buttonQuagmireWaHey = this.findViewById(R.id.button_quagmire_whaaahey);
+
+        //chris init
+        buttonChrisMonkey = this.findViewById(R.id.button_chris_monkey);
+        buttonChrisPee = this.findViewById(R.id.button_chris_pee);
+        buttonChrisPoo = this.findViewById(R.id.button_chris_poo);
+        buttonChrisSoul = this.findViewById(R.id.button_chris_soul);
 
         legal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -310,6 +322,47 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_parkingticket);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        //chris listeners
+        buttonChrisSoul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_nosoul);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonChrisPoo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_dontsaypoo);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonChrisPee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_peeinpants);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonChrisMonkey.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_evilmonkey);
                 if(!mp.isPlaying()) {
                     mp.start();
                 }
