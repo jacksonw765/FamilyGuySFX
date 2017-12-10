@@ -1,6 +1,9 @@
 package com.jacksonw765.familyguysfx;
 
+import android.content.DialogInterface;
 import android.media.MediaPlayer;
+import android.os.Build;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -43,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AdView adview;
     private RelativeLayout layout;
+    private Button legal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
         adview.loadAd(request);
+
+        legal = this.findViewById(R.id.legal);
 
         //peter init
         buttonPeterTada = this.findViewById(R.id.TaDa);
@@ -83,6 +89,28 @@ public class MainActivity extends AppCompatActivity {
         buttonQuagmireNeatIdea = this.findViewById(R.id.button_quagmire_neatidea);
         buttonQuagmireParkingTicket = this.findViewById(R.id.button_quagmire_parkingticket);
         buttonQuagmireWaHey = this.findViewById(R.id.button_quagmire_whaaahey);
+
+        legal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
+                builder1.setMessage("Thanks for downloading Family Guy Soundboard! " +
+                        "All the money this app generates from ads goes to cancer research. Together we have raised $2.71! \n" +
+                        "All rights to the sound effects belong to Fox. No copyright intended. ");
+                builder1.setCancelable(true);
+
+                builder1.setPositiveButton(
+                        "Okay",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+
+                AlertDialog alert11 = builder1.create();
+                alert11.show();
+            }
+        });
 
         //peter listeners
         buttonPeterTada.setOnClickListener(new View.OnClickListener() {
