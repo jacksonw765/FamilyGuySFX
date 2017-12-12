@@ -50,6 +50,17 @@ public class MainActivity extends AppCompatActivity {
     private Button buttonChrisSoul;
     private Button buttonChrisPee;
 
+    //stewie buttons
+    private Button buttonStewieBall;
+    private Button buttonStewieCoolWhip;
+    private Button buttonStewieDick;
+    private Button buttonStewieFunlouis;
+    private Button buttonStewiegoaway;
+    private Button buttonStewieHa;
+    private Button buttonStewieKickAss;
+    private Button buttonStewiePoopinMouth;
+    private Button buttonStewieTasteCoolWhip;
+
     private AdView adview;
     private RelativeLayout layout;
     private Button legal;
@@ -101,6 +112,17 @@ public class MainActivity extends AppCompatActivity {
         buttonChrisPee = this.findViewById(R.id.button_chris_pee);
         buttonChrisPoo = this.findViewById(R.id.button_chris_poo);
         buttonChrisSoul = this.findViewById(R.id.button_chris_soul);
+
+        //stewie init
+        buttonStewieBall = this.findViewById(R.id.button_stewie_ball);
+        buttonStewieCoolWhip = this.findViewById(R.id.button_stewie_coolwhip);
+        buttonStewieFunlouis = this.findViewById(R.id.button_stewie_funlouis);
+        buttonStewieDick = this.findViewById(R.id.button_stewie_dick);
+        buttonStewiegoaway = this.findViewById(R.id.button_stewie_goaway);
+        buttonStewiePoopinMouth = this.findViewById(R.id.button_stewie_poopinmouth);
+        buttonStewieTasteCoolWhip = this.findViewById(R.id.button_stewie_tastecoolwhip);
+        buttonStewieHa = this.findViewById(R.id.button_stewie_ha);
+        buttonStewieKickAss = this.findViewById(R.id.button_stewie_kickass);
 
         legal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -369,5 +391,95 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //listeners stewie
+        buttonStewieBall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_ballcup);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewieCoolWhip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_coolwhip);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewieDick.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_dick);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewieFunlouis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_funoflouis);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewiegoaway.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_goaway);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewieKickAss.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_kickass);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewiePoopinMouth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_poopinmouth);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewieTasteCoolWhip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_tastebettercoolwhip);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
+
+        buttonStewieHa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_ha);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
+            }
+        });
     }
 }
