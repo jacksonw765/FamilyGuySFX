@@ -8,6 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
     private AdView adview;
     private RelativeLayout layout;
     private Button legal;
+    private ImageView themeSong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         layout = new RelativeLayout(this);
+        themeSong = this.findViewById(R.id.familyGuyImage);
         adview = this.findViewById(R.id.adView);
         AdRequest request = new AdRequest.Builder()
                 .setGender(AdRequest.GENDER_MALE)
@@ -143,6 +147,16 @@ public class MainActivity extends AppCompatActivity {
 
                 AlertDialog alert11 = builder1.create();
                 alert11.show();
+            }
+        });
+
+        themeSong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.themesong);
+                if(!mp.isPlaying()) {
+                    mp.start();
+                }
             }
         });
 
