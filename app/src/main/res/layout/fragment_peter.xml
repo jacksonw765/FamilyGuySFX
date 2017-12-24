@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksonw765.familyguysfx.Peter">
+
+    <Button
+        android:id="@+id/TaDa"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_blue"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Tada"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/Cares"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TaDa"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_blue"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Who Cares"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_peter_shutupmeg"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/Cares"
+        android:layout_below="@+id/Cares"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_blue"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Shutup meg"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_peter_roadhouse"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_peter_shutupmeg"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_blue"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Roadhouse"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+</LinearLayout>

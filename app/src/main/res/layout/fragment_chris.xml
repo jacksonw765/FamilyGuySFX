@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksonw765.familyguysfx.Chris">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/button_chris_poo"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_red"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Poo"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_chris_monkey"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_chris_soul"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_red"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Evil Monkey"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_chris_soul"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_pee"
+        android:layout_below="@+id/button_chris_pee"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_red"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="No Soul"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_chris_pee"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_poo"
+        android:layout_below="@+id/button_chris_poo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_red"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Pee Pants"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksonw765.familyguysfx.Stewie">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/button_stewie_ball"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Ball Cup"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_coolwhip"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Cool Whip"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_dick"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="D**k"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_funlouis"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Fun of Louis"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_goaway"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Go Away"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_ha"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Ha!"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_kickass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Kickass"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_poopinmouth"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Poop in Mouth"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_stewie_tastecoolwhip"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_purple"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Taste Better"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+</LinearLayout>

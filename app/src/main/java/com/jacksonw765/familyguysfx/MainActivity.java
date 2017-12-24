@@ -20,48 +20,19 @@ import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends AppCompatActivity {
 
-    //peter buttons
-    private Button buttonPeterTada;
-    private Button buttonPeterCares;
-    private Button buttonPeterMeg;
-    private Button buttonPeterRoadhouse;
+    //Peter buttons
 
     //bruce buttons
-    private Button buttonBruceOhNo;
-    private Button buttonBruceAnus;
-    private Button buttonBruceDoThat;
-    private Button buttonBruceLetsTalk;
-    private Button buttonBruceLiveAlone;
-    private Button buttonBrucePullingLegs;
-    private Button buttonBruceThatsAlright;
-    private Button buttonBruceOhHey;
+
 
     //quagmire buttons
-    private Button buttonQuagmireArousing;
-    private Button buttonQuagmireAwful;
-    private Button buttonQuagmireFatChicks;
-    private Button buttonQuagmireGiggidi;
-    private Button buttonQuagmireHeardBefore;
-    private Button buttonQuagmireNeatIdea;
-    private Button buttonQuagmireParkingTicket;
-    private Button buttonQuagmireWaHey;
+
 
     //button Chris
-    private Button buttonChrisPoo;
-    private Button buttonChrisMonkey;
-    private Button buttonChrisSoul;
-    private Button buttonChrisPee;
+
 
     //stewie buttons
-    private Button buttonStewieBall;
-    private Button buttonStewieCoolWhip;
-    private Button buttonStewieDick;
-    private Button buttonStewieFunlouis;
-    private Button buttonStewiegoaway;
-    private Button buttonStewieHa;
-    private Button buttonStewieKickAss;
-    private Button buttonStewiePoopinMouth;
-    private Button buttonStewieTasteCoolWhip;
+
 
     private AdView adview;
     private RelativeLayout layout;
@@ -85,48 +56,19 @@ public class MainActivity extends AppCompatActivity {
 
         legal = this.findViewById(R.id.legal);
 
-        //peter init
-        buttonPeterTada = this.findViewById(R.id.TaDa);
-        buttonPeterCares = this.findViewById(R.id.Cares);
-        buttonPeterRoadhouse = this.findViewById(R.id.button_peter_roadhouse);
-        buttonPeterMeg = this.findViewById(R.id.button_peter_shutupmeg);
+        //Peter init
+
 
         //bruce init
-        buttonBruceOhNo = this.findViewById(R.id.OhNo);
-        buttonBruceOhHey = this.findViewById(R.id.button_bruce_ohHey);
-        buttonBruceThatsAlright = this.findViewById(R.id.button_bruce_thatsalright);
-        buttonBrucePullingLegs = this.findViewById(R.id.button_bruce_pullinglegs);
-        buttonBruceLiveAlone = this.findViewById(R.id.button_bruce_livealone);
-        buttonBruceLetsTalk = this.findViewById(R.id.button_bruce_letstalk);
-        buttonBruceAnus = this.findViewById(R.id.button_bruce_anus);
-        buttonBruceDoThat = this.findViewById(R.id.button_bruce_dothat);
+
 
         //quagmire init
-        buttonQuagmireArousing = this.findViewById(R.id.button_quagmire_arousing);
-        buttonQuagmireAwful = this.findViewById(R.id.button_quagmire_awful);
-        buttonQuagmireFatChicks = this.findViewById(R.id.button_quagmire_fat);
-        buttonQuagmireGiggidi = this.findViewById(R.id.button_quagmire_giggidi);
-        buttonQuagmireHeardBefore = this.findViewById(R.id.button_quagmire_heardbefore);
-        buttonQuagmireNeatIdea = this.findViewById(R.id.button_quagmire_neatidea);
-        buttonQuagmireParkingTicket = this.findViewById(R.id.button_quagmire_parkingticket);
-        buttonQuagmireWaHey = this.findViewById(R.id.button_quagmire_whaaahey);
+
 
         //chris init
-        buttonChrisMonkey = this.findViewById(R.id.button_chris_monkey);
-        buttonChrisPee = this.findViewById(R.id.button_chris_pee);
-        buttonChrisPoo = this.findViewById(R.id.button_chris_poo);
-        buttonChrisSoul = this.findViewById(R.id.button_chris_soul);
 
         //stewie init
-        buttonStewieBall = this.findViewById(R.id.button_stewie_ball);
-        buttonStewieCoolWhip = this.findViewById(R.id.button_stewie_coolwhip);
-        buttonStewieFunlouis = this.findViewById(R.id.button_stewie_funlouis);
-        buttonStewieDick = this.findViewById(R.id.button_stewie_dick);
-        buttonStewiegoaway = this.findViewById(R.id.button_stewie_goaway);
-        buttonStewiePoopinMouth = this.findViewById(R.id.button_stewie_poopinmouth);
-        buttonStewieTasteCoolWhip = this.findViewById(R.id.button_stewie_tastecoolwhip);
-        buttonStewieHa = this.findViewById(R.id.button_stewie_ha);
-        buttonStewieKickAss = this.findViewById(R.id.button_stewie_kickass);
+
 
         legal.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -160,340 +102,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //peter listeners
-        buttonPeterTada.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_tada);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonPeterCares.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_whocares);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonPeterMeg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_shutupmeg);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonPeterRoadhouse.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.peter_roadhouse);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
+        //Peter listeners
 
         //bruce listeners
-        buttonBruceOhNo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_ohno);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
-        buttonBruceAnus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_anus);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonBruceDoThat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_candothat);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonBruceLetsTalk.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_letstalk);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonBruceLiveAlone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_livealone);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonBrucePullingLegs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_pullinglegs);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonBruceThatsAlright.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_thatsalright);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonBruceOhHey.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.bruce_ohhey);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
         //Quagmire Listeners
-        buttonQuagmireWaHey.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_whaaaaheeehey);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
-        buttonQuagmireArousing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_arousing);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonQuagmireAwful.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_awful);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonQuagmireFatChicks.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_fatchicks);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonQuagmireGiggidi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_giggidi);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonQuagmireHeardBefore.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_heardbefore);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonQuagmireNeatIdea.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_neatidea);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonQuagmireParkingTicket.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.quagmire_parkingticket);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
         //chris listeners
-        buttonChrisSoul.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_nosoul);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
-        buttonChrisPoo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_dontsaypoo);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonChrisPee.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_peeinpants);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonChrisMonkey.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.chris_evilmonkey);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
         //listeners stewie
-        buttonStewieBall.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_ballcup);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
 
-        buttonStewieCoolWhip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_coolwhip);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewieDick.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_dick);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewieFunlouis.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_funoflouis);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewiegoaway.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_goaway);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewieKickAss.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_kickass);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewiePoopinMouth.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_poopinmouth);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewieTasteCoolWhip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_tastebettercoolwhip);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
-
-        buttonStewieHa.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.stuwie_ha);
-                if(!mp.isPlaying()) {
-                    mp.start();
-                }
-            }
-        });
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
     android:id="@+id/relative_layout"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
@@ -38,65 +38,7 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
-        <Button
-            android:id="@+id/TaDa"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_blue"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Tada"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/Cares"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_blue"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Who Cares"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_peter_shutupmeg"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_blue"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Shutup meg"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_peter_roadhouse"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_blue"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Roadhouse"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <View style="@style/Divider"
-            android:layout_marginTop="20dp"/>
 
         <TextView
             android:id="@+id/textBruce"
@@ -110,124 +52,7 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
-        <Button
-            android:id="@+id/button_bruce_anus"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Anus"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/OhNo"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Oh no"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_bruce_dothat"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="I Can Do That"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_bruce_letstalk"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:text="Let's Talk"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_bruce_livealone"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Live Alone"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_bruce_ohHey"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Oh Hey"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_bruce_pullinglegs"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Pulling Legs"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_bruce_thatsalright"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_green"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="That's Alright"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
         <View style="@style/Divider"
             android:layout_marginTop="20dp"/>
@@ -244,125 +69,7 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
-        <Button
-            android:id="@+id/button_quagmire_arousing"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Arousing"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/button_quagmire_awful"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Awful"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_quagmire_fat"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Fat Chicks"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_quagmire_giggidi"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Giggidi"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_quagmire_heardbefore"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Heard Before"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_quagmire_neatidea"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Neat Idea"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_quagmire_parkingticket"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Parking Ticket"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_quagmire_whaaahey"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_orange"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="waaheyy"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
         <View style="@style/Divider"
             android:layout_marginTop="20dp"/>
@@ -378,61 +85,9 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
-        <Button
-            android:id="@+id/button_chris_poo"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_red"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Poo"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/button_chris_monkey"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_red"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Evil Monkey"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/button_chris_soul"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_red"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="No Soul"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/button_chris_pee"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_red"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Pee Pants"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
         <View style="@style/Divider"
             android:layout_marginTop="20dp"/>
@@ -448,131 +103,7 @@
             android:textStyle="bold"
             android:typeface="sans" />
 
-        <Button
-            android:id="@+id/button_stewie_ball"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Ball Cup"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
-        <Button
-            android:id="@+id/button_stewie_coolwhip"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Cool Whip"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_dick"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="D**k"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_funlouis"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Fun of Louis"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_goaway"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Go Away"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_ha"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Ha!"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_kickass"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Kickass"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_poopinmouth"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Poop in Mouth"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
-
-        <Button
-            android:id="@+id/button_stewie_tastecoolwhip"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
-            android:width="200dp"
-            android:background="@drawable/button_purple"
-            android:foreground="?android:attr/selectableItemBackground"
-            android:text="Taste Better"
-            android:textColor="#FFFFFF"
-            android:textSize="7pt" />
 
         <Button
             android:id="@+id/legal"
@@ -590,14 +121,7 @@
 
 </ScrollView>
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adUnitId="ca-app-pub-7225811178915318/3830416140"
-        ads:adSize="BANNER" />
+
 
 </RelativeLayout>
 

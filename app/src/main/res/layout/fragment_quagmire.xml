@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksonw765.familyguysfx.Quagmire">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/button_quagmire_arousing"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Arousing"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_awful"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_quagmire_fat"
+        android:layout_below="@+id/button_quagmire_fat"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Awful"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_fat"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_quagmire_giggidi"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Fat Chicks"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_giggidi"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_quagmire_heardbefore"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Giggidi"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_heardbefore"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_quagmire_neatidea"
+        android:layout_below="@+id/button_quagmire_neatidea"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Heard Before"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_neatidea"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_quagmire_whaaahey"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Neat Idea"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_parkingticket"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_quagmire_awful"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Parking Ticket"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_quagmire_whaaahey"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_quagmire_arousing"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_orange"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="waaheyy"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+</LinearLayout>

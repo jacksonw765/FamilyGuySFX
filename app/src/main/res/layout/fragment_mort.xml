@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jacksonw765.familyguysfx.Mort">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button_mort_awful"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button_mort_fool"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Awful"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_addicted"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/button_mort_awful"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Addicted"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_flush"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Flush"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_goldman"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_mort_mucus"
+        android:layout_below="@+id/button_mort_mucus"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Goldman"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_mucus"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_mort_peanut"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Mucus"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_peanut"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_mort_tastycakes"
+        android:layout_below="@+id/button_mort_tastycakes"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Peanut"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_tastycakes"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_mort_takethat"
+        android:layout_below="@+id/button_mort_takethat"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Tasty Cakes"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_takethat"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_mort_verynice"
+        android:layout_below="@+id/button_mort_verynice"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Take That"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_verynice"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_mort_fool"
+        android:layout_below="@+id/button_mort_fool"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Very Nice"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_mort_fool"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button_mort_addicted"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_pink"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Fool"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+</LinearLayout>
