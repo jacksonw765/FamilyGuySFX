@@ -104,8 +104,12 @@ public class MainTabs extends AppCompatActivity {
                     return new Quagmire();
                 case 5:
                     return new Stewie();
+                case 6:
+                    return new Info();
+                case 7:
+                    return new HiddenFragment();
                 default:
-                    return new Fragment();
+                    return new HiddenFragment();
             }
         }
 

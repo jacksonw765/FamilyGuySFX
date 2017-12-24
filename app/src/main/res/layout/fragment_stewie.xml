@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -123,7 +127,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="70dp"
         android:layout_marginTop="5dp"
         android:width="200dp"
         android:background="@drawable/button_purple"
@@ -131,5 +135,9 @@
         android:text="Taste Better"
         android:textColor="#FFFFFF"
         android:textSize="7pt" />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
 
 </LinearLayout>
+</ScrollView>

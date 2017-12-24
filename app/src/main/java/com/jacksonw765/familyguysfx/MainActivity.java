@@ -20,23 +20,8 @@ import com.google.android.gms.ads.AdView;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Peter buttons
-
-    //bruce buttons
-
-
-    //quagmire buttons
-
-
-    //button Chris
-
-
-    //stewie buttons
-
-
     private AdView adview;
     private RelativeLayout layout;
-    private Button legal;
     private ImageView themeSong;
 
     @Override
@@ -54,44 +39,6 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         adview.loadAd(request);
 
-        legal = this.findViewById(R.id.legal);
-
-        //Peter init
-
-
-        //bruce init
-
-
-        //quagmire init
-
-
-        //chris init
-
-        //stewie init
-
-
-        legal.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
-                builder1.setMessage("Thanks for downloading Family Guy Soundboard! " +
-                        "All the money this app generates from ads goes to cancer research. Together we have raised $2.71! \n" +
-                        "All rights to the sound effects belong to Fox. No copyright intended. ");
-                builder1.setCancelable(true);
-
-                builder1.setPositiveButton(
-                        "Okay",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.cancel();
-                            }
-                        });
-
-                AlertDialog alert11 = builder1.create();
-                alert11.show();
-            }
-        });
-
         themeSong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -101,19 +48,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-        //Peter listeners
-
-        //bruce listeners
-
-
-        //Quagmire Listeners
-
-
-        //chris listeners
-
-
-        //listeners stewie
 
     }
 }
