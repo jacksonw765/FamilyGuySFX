@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Family Guy SFX</string>
-    <string name="title_activity_main_tabs">MainTabs</string>
+    <string name="title_activity_main_tabs">Family Guy Soundboard</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
