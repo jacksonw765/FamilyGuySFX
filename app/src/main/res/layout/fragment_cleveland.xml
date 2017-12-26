@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.jacksonw765.familyguysfx.Mort">
+
+        <Button
+            android:id="@+id/button_cleveland_admin"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Administrator"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_crazy"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Crazy"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_leastfav"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Least Favorite"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_longride"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Long Ride"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_menthols"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Menthols"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_party"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Party"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_poorbas"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Poor B*****d"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_slapme"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Slap Me"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_somethingcrazy"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Something Crazy"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_trouble"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Trouble"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_cleveland_window"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_brown"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Window"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+</ScrollView>

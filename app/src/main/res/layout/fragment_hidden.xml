@@ -6,4 +6,13 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="You found the secret tab! Nothing is here yet but there will be soon!"
+        android:textSize="20sp" />
 </RelativeLayout>

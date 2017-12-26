@@ -20,6 +20,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -91,32 +92,62 @@ public class MainTabs extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
+            //Toast.makeText(getApplicationContext(), ""+position, Toast.LENGTH_LONG).show();
+/*
+            if(position == 0) {
+                return new Bruce();
+            }
+            if (position == 1) {
+                return new Chris();
+            }
+            if (position == 2) {
+                return new Cleveland();
+            }
+            if (position == 3) {
+                return new Mort();
+            }
+            if (position == 4) {
+                return new Peter();
+            }
+            if (position == 5) {
+                return new Quagmire();
+            }
+            if (position == 6) {
+                return new Stewie();
+            }
+            if (position == 7) {
+                return new Info();
+            }
+            else return null
+            */
+
             switch (position) {
                 case 0:
                     return new Bruce();
                 case 1:
                     return new Chris();
                 case 2:
-                    return new Mort();
+                    return new Cleveland();
                 case 3:
-                    return new Peter();
+                    return new Mort();
                 case 4:
-                    return new Quagmire();
+                    return new Peter();
                 case 5:
-                    return new Stewie();
+                    return new Quagmire();
                 case 6:
-                    return new Info();
+                    return new Stewie();
                 case 7:
-                    return new HiddenFragment();
-                default:
+                    return new Info();
+                case 8:
                     return new HiddenFragment();
             }
+            return new HiddenFragment();
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 7;
+            return 9;
         }
     }
 }
