@@ -4,15 +4,62 @@
     android:layout_height="match_parent"
     tools:context="com.jacksonw765.familyguysfx.HiddenFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="200dp"
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:text="You found the secret tab! Nothing is here yet but there will be soon!"
-        android:textSize="20sp" />
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.jacksonw765.familyguysfx.Mort">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:text="You found the secret tab! More items are coming soon."
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_themesong"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:width="200dp"
+                android:background="@drawable/button_orange"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Theme Song"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_falco"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_orange"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Falco Punch"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jacksonw765.familyguysfx.Songs">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context="com.jacksonw765.familyguysfx.songs">
+
+            <Button
+                android:id="@+id/button_song_alyssamilano"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Alyssa Milano"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_asian"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Asian"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_brokenrubber"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Broken Rubber"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_brushteeth"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Brush Teeth"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_creditcard"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Credit Card Debt"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_downgirl"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Down Syndrome Girl"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_family"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Waitress Family"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_fcc"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Freaking FCC"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_florida"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Florida"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_homebowl"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Home Bowl"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_meltedcheese"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Melted Cheese"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_mrbooze"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Mr. Booze"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_parentsgros"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Parents are gross"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_poptart"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Poptart"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_republican"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Republican Town"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_whites"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Thank the whites"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Button
+                android:id="@+id/button_song_trainboat"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:width="200dp"
+                android:background="@drawable/button_litegreen"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Train Boat"
+                android:textColor="#FFFFFF"
+                android:textSize="7pt" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.ohoussein.playpause.PlayPauseView
+        android:id="@+id/play_pause_view"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="70dp"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:foreground="?android:selectableItemBackground"
+        app:borderWidth="0dp"
+        app:fill_color="#e1e1e1"
+        app:pause_bg="@android:color/holo_blue_dark"
+        app:play_bg="@android:color/holo_orange_light" />
+
+</RelativeLayout>

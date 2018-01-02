@@ -112,8 +112,10 @@ public class MainTabs extends AppCompatActivity {
                 case 7:
                     return new Stewie();
                 case 8:
-                    return new Info();
+                    return new Songs();
                 case 9:
+                    return new Info();
+                case 10:
                     return new HiddenFragment();
             }
             return new HiddenFragment();
@@ -122,7 +124,7 @@ public class MainTabs extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 10;
+            return 11;
         }
     }
 }
