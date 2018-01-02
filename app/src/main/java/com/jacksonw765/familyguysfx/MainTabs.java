@@ -93,33 +93,6 @@ public class MainTabs extends AppCompatActivity {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
             //Toast.makeText(getApplicationContext(), ""+position, Toast.LENGTH_LONG).show();
-/*
-            if(position == 0) {
-                return new Bruce();
-            }
-            if (position == 1) {
-                return new Chris();
-            }
-            if (position == 2) {
-                return new Cleveland();
-            }
-            if (position == 3) {
-                return new Mort();
-            }
-            if (position == 4) {
-                return new Peter();
-            }
-            if (position == 5) {
-                return new Quagmire();
-            }
-            if (position == 6) {
-                return new Stewie();
-            }
-            if (position == 7) {
-                return new Info();
-            }
-            else return null
-            */
 
             switch (position) {
                 case 0:
@@ -129,16 +102,18 @@ public class MainTabs extends AppCompatActivity {
                 case 2:
                     return new Cleveland();
                 case 3:
-                    return new Mort();
+                    return new Herbert();
                 case 4:
-                    return new Peter();
+                    return new Mort();
                 case 5:
-                    return new Quagmire();
+                    return new Peter();
                 case 6:
-                    return new Stewie();
+                    return new Quagmire();
                 case 7:
-                    return new Info();
+                    return new Stewie();
                 case 8:
+                    return new Info();
+                case 9:
                     return new HiddenFragment();
             }
             return new HiddenFragment();
@@ -147,7 +122,7 @@ public class MainTabs extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 9;
+            return 10;
         }
     }
 }

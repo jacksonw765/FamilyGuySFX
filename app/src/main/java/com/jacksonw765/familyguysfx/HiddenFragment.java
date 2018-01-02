@@ -15,7 +15,6 @@ public class HiddenFragment extends Fragment {
 
 
 
-
     public HiddenFragment() {
         // Required empty public constructor
     }

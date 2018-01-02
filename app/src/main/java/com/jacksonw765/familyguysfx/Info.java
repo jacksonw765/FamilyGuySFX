@@ -46,8 +46,8 @@ public class Info extends Fragment {
             public void onClick(View view) {
                 AlertDialog.Builder builder1 = new AlertDialog.Builder(getContext());
                 builder1.setMessage("Thanks for downloading Family Guy Soundboard! " +
-                        "All the money this app generates from ads goes to cancer research. Together we have raised $2.71! \n" +
-                        "All rights to the sound effects belong to Fox. No copyright intended. ");
+                        "All the money this app generates from ads goes to support the United Service Organizations. Together we have raised $2.71! \n" +
+                        "All rights to the sound effects belong to Fox. No copyright intended. Please do not sue me. ");
                 builder1.setCancelable(true);
 
                 builder1.setPositiveButton(

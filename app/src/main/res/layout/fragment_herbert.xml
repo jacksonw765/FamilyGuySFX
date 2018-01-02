@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.jacksonw765.familyguysfx.Herbert">
+
+        <Button
+            android:id="@+id/button_herbert_comehere"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Come Here"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_fishitout"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Fish it out"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_hikyle"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Hi Kyle"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_longface"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Long Face"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_musily"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Muscly Arm"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_newspaper"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Newspaper"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_popsicle"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Popsicle"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_silentnight"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Silent Night"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_sonofbit"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Son of a B****h"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_spreadbutter"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Spread that butter"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_sweaty"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Sweaty"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_tylonal"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Tylenol PM"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_herbert_whereyaat"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_lightblue"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Where ya at"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+</ScrollView>
+
