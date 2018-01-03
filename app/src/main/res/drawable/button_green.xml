@@ -13,10 +13,10 @@
     <item android:state_pressed="true">
         <shape xmlns:android="http://schemas.android.com/apk/res/android" >
             <corners
-                android:topLeftRadius="3dp"
-                android:topRightRadius="3dp"
-                android:bottomLeftRadius="3dp"
-                android:bottomRightRadius="3dp"
+                android:topLeftRadius="40dp"
+                android:topRightRadius="40dp"
+                android:bottomLeftRadius="40dp"
+                android:bottomRightRadius="40dp"
                 />
             <solid
                 android:color="#00701a"
@@ -27,10 +27,10 @@
     <item>
         <shape xmlns:android="http://schemas.android.com/apk/res/android" >
             <corners
-                android:topLeftRadius="3dp"
-                android:topRightRadius="3dp"
-                android:bottomLeftRadius="3dp"
-                android:bottomRightRadius="3dp"
+                android:topLeftRadius="40dp"
+                android:topRightRadius="40dp"
+                android:bottomLeftRadius="40dp"
+                android:bottomRightRadius="40dp"
                 />
             <solid
                 android:color="#43a047"

@@ -70,7 +70,6 @@ public class MainTabs extends AppCompatActivity {
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
         adview.loadAd(request);
-
     }
 
 
@@ -96,26 +95,28 @@ public class MainTabs extends AppCompatActivity {
 
             switch (position) {
                 case 0:
-                    return new Bruce();
+                    return new Home();
                 case 1:
-                    return new Chris();
+                    return new Bruce();
                 case 2:
-                    return new Cleveland();
+                    return new Chris();
                 case 3:
-                    return new Herbert();
+                    return new Cleveland();
                 case 4:
-                    return new Mort();
+                    return new Herbert();
                 case 5:
-                    return new Peter();
+                    return new Mort();
                 case 6:
-                    return new Quagmire();
+                    return new Peter();
                 case 7:
-                    return new Stewie();
+                    return new Quagmire();
                 case 8:
-                    return new Songs();
+                    return new Stewie();
                 case 9:
-                    return new Info();
+                    return new Songs();
                 case 10:
+                    return new Info();
+                case 11:
                     return new HiddenFragment();
             }
             return new HiddenFragment();
@@ -124,7 +125,7 @@ public class MainTabs extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 11;
+            return 12;
         }
     }
 }

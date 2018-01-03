@@ -29,6 +29,9 @@
         android:layout_below="@+id/email"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
+        android:background="@drawable/button_litegreen"
+        android:elevation="6dp"
+        android:foreground="?android:attr/selectableItemBackground"
         android:text="Legal Notice" />
 
     <Button
@@ -39,6 +42,9 @@
         android:layout_alignStart="@+id/textView"
         android:layout_below="@+id/familyGuyImage"
         android:layout_gravity="bottom"
+        android:background="@drawable/button_blue"
+        android:elevation="6dp"
+        android:foreground="?android:attr/selectableItemBackground"
         android:text="rate" />
 
     <Button
@@ -49,6 +55,9 @@
         android:layout_alignBottom="@+id/rate"
         android:layout_alignEnd="@+id/textView"
         android:layout_gravity="bottom"
+        android:background="@drawable/button_blue"
+        android:elevation="6dp"
+        android:foreground="?android:attr/selectableItemBackground"
         android:text="email" />
 
     <TextView
