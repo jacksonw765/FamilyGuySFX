@@ -1,13 +1,111 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jacksonw765.familyguysfx.Brian">
+    android:orientation="vertical"
+    tools:context="com.jacksonw765.familyguysfx.Chris">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="brian" />
+    <Button
+        android:id="@+id/button_brian_ass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="A**"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/button_brian_asshoy"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="A** Hoy"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_brian_cheerio"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_pee"
+        android:layout_below="@+id/button_chris_pee"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Cheerios"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_brian_chicken"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_pee"
+        android:layout_below="@+id/button_chris_pee"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Chicken Fajitas"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_brian_drymartini"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_poo"
+        android:layout_below="@+id/button_chris_poo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Dry Martini"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_brian_barkeep"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_poo"
+        android:layout_below="@+id/button_chris_poo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Barkeep"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+    <Button
+        android:id="@+id/button_brian_money"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/button_chris_poo"
+        android:layout_below="@+id/button_chris_poo"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:width="200dp"
+        android:background="@drawable/button_brown"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Money Money"
+        android:textColor="#FFFFFF"
+        android:textSize="7pt" />
+
+</LinearLayout>
