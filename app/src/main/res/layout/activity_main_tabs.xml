@@ -41,7 +41,7 @@
                 android:id="@+id/tab_brian"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bruce"/>
+                android:text="Brian"/>
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tab_chris"
@@ -60,6 +60,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Herbert" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tab_lois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lois" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tab_mort"

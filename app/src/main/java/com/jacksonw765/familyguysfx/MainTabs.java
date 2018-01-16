@@ -107,18 +107,20 @@ public class MainTabs extends AppCompatActivity {
                 case 5:
                     return new Herbert();
                 case 6:
-                    return new Mort();
+                    return new Lois();
                 case 7:
-                    return new Peter();
+                    return new Mort();
                 case 8:
-                    return new Quagmire();
+                    return new Peter();
                 case 9:
-                    return new Stewie();
+                    return new Quagmire();
                 case 10:
-                    return new Songs();
+                    return new Stewie();
                 case 11:
-                    return new Info();
+                    return new Songs();
                 case 12:
+                    return new Info();
+                case 13:
                     return new HiddenFragment();
             }
             return new HiddenFragment();
@@ -127,7 +129,7 @@ public class MainTabs extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 13;
+            return 14;
         }
     }
 }
