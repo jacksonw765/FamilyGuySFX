@@ -124,9 +124,8 @@
         android:layout_alignParentBottom="false"
         android:layout_weight="1"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7225811178915318/3830416140"
+        ads:adUnitId="ca-app-pub-7225811178915318/2239042965"
         app:layout_anchor="@+id/container"
-        app:layout_anchorGravity="bottom" />
-
+        app:layout_anchorGravity="bottom"/>
 
 </android.support.design.widget.CoordinatorLayout>
