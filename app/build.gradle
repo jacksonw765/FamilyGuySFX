@@ -6,8 +6,8 @@ android {
         applicationId "com.jacksonw765.familyguysfx"
         minSdkVersion 19
         targetSdkVersion 26
-        versionCode 11
-        versionName "1.8.1"
+        versionCode 12
+        versionName "1.8.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

@@ -41,6 +41,7 @@ public class Songs extends Fragment {
     private Button buttonSongRepublicanTown;
     private Button buttonSongThankTheWhites;
     private Button buttonSongTrainBoat;
+    private Button buttonSongChristmas;
     private MediaPlayer mediaPlayer;
 
     public Songs() {
@@ -74,6 +75,7 @@ public class Songs extends Fragment {
             buttonSongRepublicanTown = view.findViewById(R.id.button_song_republican);
             buttonSongThankTheWhites = view.findViewById(R.id.button_song_whites);
             buttonSongTrainBoat = view.findViewById(R.id.button_song_trainboat);
+            buttonSongChristmas = view.findViewById(R.id.button_song_christmas);
 
             mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alyssamilano);
 
@@ -323,6 +325,21 @@ public class Songs extends Fragment {
                     if (mediaPlayer.isPlaying())
                         mediaPlayer.stop();
                     mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_trainboat);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongChristmas.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alliwantforchristmas);
                     mediaPlayer.start();
                     //changes state of play/pause
                     if (floatingPlayPause.isPlay())
