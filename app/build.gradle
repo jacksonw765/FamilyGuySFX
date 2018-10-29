@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.jacksonw765.familyguysfx"
+        applicationId "com.jacksonw765.familyguy"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 12
@@ -30,5 +30,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     implementation 'com.google.android.gms:play-services-ads:11.6.2'
-    compile 'com.github.ohoussein.playpauseview:playpauseview:1.0.2'
+    implementation 'com.github.ohoussein.playpauseview:playpauseview:1.0.2'
 }

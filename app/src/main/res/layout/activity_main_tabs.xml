@@ -127,5 +127,4 @@
         ads:adUnitId="ca-app-pub-7225811178915318/2239042965"
         app:layout_anchor="@+id/container"
         app:layout_anchorGravity="bottom"/>
-
 </android.support.design.widget.CoordinatorLayout>
