@@ -26,10 +26,22 @@
             app:tabMode="scrollable">
 
             <android.support.design.widget.TabItem
+                android:id="@+id/tab_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home" />
+
+            <android.support.design.widget.TabItem
                 android:id="@+id/tab_bruce"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bruce" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tab_brian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brian"/>
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tab_chris"
@@ -48,6 +60,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Herbert" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tab_lois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lois" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tab_mort"
@@ -106,9 +124,7 @@
         android:layout_alignParentBottom="false"
         android:layout_weight="1"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-7225811178915318/3830416140"
+        ads:adUnitId="ca-app-pub-7225811178915318/2239042965"
         app:layout_anchor="@+id/container"
-        app:layout_anchorGravity="bottom" />
-
-
+        app:layout_anchorGravity="bottom"/>
 </android.support.design.widget.CoordinatorLayout>

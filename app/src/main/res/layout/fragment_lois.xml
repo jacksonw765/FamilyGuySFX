@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.jacksonw765.familyguysfx.Mort">
+
+        <Button
+            android:id="@+id/button_lois_cracker"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Cracker Jacks"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_badchoice"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Bad Choice"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_choice"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Choice"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_xmas"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Christmas"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_hello"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Hello"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_santa"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Santa"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_shower"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Shower"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_sweater"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Sweater"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_toys"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="No toys at the table"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Button
+            android:id="@+id/button_lois_tree"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:background="@drawable/button_mint"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Tree"
+            android:textColor="#FFFFFF"
+            android:textSize="7pt" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+    </LinearLayout>
+</ScrollView>

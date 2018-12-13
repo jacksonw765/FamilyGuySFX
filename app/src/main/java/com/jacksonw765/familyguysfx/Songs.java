@@ -41,13 +41,12 @@ public class Songs extends Fragment {
     private Button buttonSongRepublicanTown;
     private Button buttonSongThankTheWhites;
     private Button buttonSongTrainBoat;
+    private Button buttonSongChristmas;
     private MediaPlayer mediaPlayer;
-
 
     public Songs() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,305 +54,322 @@ public class Songs extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_songs, container, false);
 
+        try {
 
-        floatingPlayPause = view.findViewById(R.id.play_pause_view);
+            floatingPlayPause = view.findViewById(R.id.play_pause_view);
 
+            buttonSongAlyssaMilano = view.findViewById(R.id.button_song_alyssamilano);
+            buttonSongAsian = view.findViewById(R.id.button_song_asian);
+            buttonSongBrokenRubber = view.findViewById(R.id.button_song_brokenrubber);
+            buttonSongBrushTeeth = view.findViewById(R.id.button_song_brushteeth);
+            buttonSongCreditCardDebt = view.findViewById(R.id.button_song_creditcard);
+            buttonSongDownGirl = view.findViewById(R.id.button_song_downgirl);
+            buttonSongFamily = view.findViewById(R.id.button_song_family);
+            buttonSongFCC = view.findViewById(R.id.button_song_fcc);
+            buttonSongFlorida = view.findViewById(R.id.button_song_florida);
+            buttonSongHomeBowl = view.findViewById(R.id.button_song_homebowl);
+            buttonSongMeltedCheese = view.findViewById(R.id.button_song_meltedcheese);
+            buttonSongMrBooze = view.findViewById(R.id.button_song_mrbooze);
+            buttonSongParents = view.findViewById(R.id.button_song_parentsgros);
+            buttonSongPoptart = view.findViewById(R.id.button_song_poptart);
+            buttonSongRepublicanTown = view.findViewById(R.id.button_song_republican);
+            buttonSongThankTheWhites = view.findViewById(R.id.button_song_whites);
+            buttonSongTrainBoat = view.findViewById(R.id.button_song_trainboat);
+            buttonSongChristmas = view.findViewById(R.id.button_song_christmas);
 
-        buttonSongAlyssaMilano = view.findViewById(R.id.button_song_alyssamilano);
-        buttonSongAsian = view.findViewById(R.id.button_song_asian);
-        buttonSongBrokenRubber = view.findViewById(R.id.button_song_brokenrubber);
-        buttonSongBrushTeeth = view.findViewById(R.id.button_song_brushteeth);
-        buttonSongCreditCardDebt = view.findViewById(R.id.button_song_creditcard);
-        buttonSongDownGirl = view.findViewById(R.id.button_song_downgirl);
-        buttonSongFamily = view.findViewById(R.id.button_song_family);
-        buttonSongFCC = view.findViewById(R.id.button_song_fcc);
-        buttonSongFlorida = view.findViewById(R.id.button_song_florida);
-        buttonSongHomeBowl = view.findViewById(R.id.button_song_homebowl);
-        buttonSongMeltedCheese = view.findViewById(R.id.button_song_meltedcheese);
-        buttonSongMrBooze = view.findViewById(R.id.button_song_mrbooze);
-        buttonSongParents = view.findViewById(R.id.button_song_parentsgros);
-        buttonSongPoptart = view.findViewById(R.id.button_song_poptart);
-        buttonSongRepublicanTown = view.findViewById(R.id.button_song_republican);
-        buttonSongThankTheWhites = view.findViewById(R.id.button_song_whites);
-        buttonSongTrainBoat = view.findViewById(R.id.button_song_trainboat);
+            mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alyssamilano);
 
-        mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alyssamilano);
-
-        //MediaPlayer currentMedia = mediaPlayer;
-
-        buttonSongAlyssaMilano.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                        mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alyssamilano);
-                        mediaPlayer.start();
-                    //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                    //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongAsian.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_asian);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongBrokenRubber.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_brokenrubber);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongBrushTeeth.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_brushteeth);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongCreditCardDebt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_creditcarddebt);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongDownGirl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_downgirl);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongFamily.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_family);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongFCC.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_fcc);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongFlorida.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_florida);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongHomeBowl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_homebowl);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongMeltedCheese.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_meltedcheese);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongMrBooze.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_mrbooze);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongParents.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_parentsgross);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongPoptart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_poptart);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongRepublicanTown.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_republicantown);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongThankTheWhites.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_thankthewhites);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-        buttonSongTrainBoat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(mediaPlayer.isPlaying())
-                    mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_trainboat);
-                mediaPlayer.start();
-                //changes state of play/pause
-                if(floatingPlayPause.isPlay())
-                    floatingPlayPause.change(false);
-                //called when song finishes
-                onMediaCompletion(mediaPlayer);
-            }
-        });
-
-
-        floatingPlayPause.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                if (mediaPlayer.isPlaying() && !floatingPlayPause.isPlay()) {
-                    floatingPlayPause.change(true);
-                    mediaPlayer.pause();
-                    return;
-                }
-
-                if (!mediaPlayer.isPlaying() && floatingPlayPause.isPlay()) {
-                    floatingPlayPause.change(false);
+            buttonSongAlyssaMilano.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alyssamilano);
                     mediaPlayer.start();
-                    return;
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
                 }
-            }
-        });
+            });
+
+            buttonSongAsian.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_asian);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongBrokenRubber.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_brokenrubber);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongBrushTeeth.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_brushteeth);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongCreditCardDebt.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_creditcarddebt);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongDownGirl.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_downgirl);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongFamily.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_family);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongFCC.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_fcc);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongFlorida.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_florida);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongHomeBowl.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_homebowl);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongMeltedCheese.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_meltedcheese);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongMrBooze.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_mrbooze);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongParents.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_parentsgross);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongPoptart.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_poptart);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongRepublicanTown.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_republicantown);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongThankTheWhites.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_thankthewhites);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongTrainBoat.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_trainboat);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+            buttonSongChristmas.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (mediaPlayer.isPlaying())
+                        mediaPlayer.stop();
+                    mediaPlayer = MediaPlayer.create(getContext(), R.raw.song_alliwantforchristmas);
+                    mediaPlayer.start();
+                    //changes state of play/pause
+                    if (floatingPlayPause.isPlay())
+                        floatingPlayPause.change(false);
+                    //called when song finishes
+                    onMediaCompletion(mediaPlayer);
+                }
+            });
+
+
+            floatingPlayPause.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    if (mediaPlayer.isPlaying() && !floatingPlayPause.isPlay()) {
+                        floatingPlayPause.change(true);
+                        mediaPlayer.pause();
+                        return;
+                    }
+
+                    if (!mediaPlayer.isPlaying() && floatingPlayPause.isPlay()) {
+                        floatingPlayPause.change(false);
+                        mediaPlayer.start();
+                        return;
+                    }
+                }
+            });
+        } catch (Exception e) {
+            Toast.makeText(view.getContext(), "Unknown Error Occurred", Toast.LENGTH_SHORT).show();
+        }
 
 
         return view;

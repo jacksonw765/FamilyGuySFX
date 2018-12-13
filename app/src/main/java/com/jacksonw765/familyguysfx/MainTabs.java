@@ -1,6 +1,7 @@
 package com.jacksonw765.familyguysfx;
 
 import android.net.Uri;
+import android.os.Build;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -23,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 
 public class MainTabs extends AppCompatActivity {
@@ -52,25 +54,30 @@ public class MainTabs extends AppCompatActivity {
         //setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        // Set up the ViewPager with the sections adapter.
-        mViewPager = findViewById(R.id.container);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
+        try {
+            mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
-        TabLayout tabLayout = findViewById(R.id.tabs);
+            // Set up the ViewPager with the sections adapter.
+            mViewPager = findViewById(R.id.container);
+            mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
-        tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
+            TabLayout tabLayout = findViewById(R.id.tabs);
 
-        adview = this.findViewById(R.id.adView);
-        AdRequest request = new AdRequest.Builder()
-                .setGender(AdRequest.GENDER_MALE)
-                .setIsDesignedForFamilies(false)
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        adview.loadAd(request);
+            mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+            tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
 
+            adview = this.findViewById(R.id.adView);
+            AdRequest request = new AdRequest.Builder()
+                    .setGender(AdRequest.GENDER_MALE)
+                    .setIsDesignedForFamilies(false)
+                    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                    .build();
+            adview.loadAd(request);
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(getApplicationContext(), "An unknown error occered", Toast.LENGTH_SHORT).show();
+        }
     }
 
 
@@ -94,37 +101,49 @@ public class MainTabs extends AppCompatActivity {
             // Return a PlaceholderFragment (defined as a static inner class below).
             //Toast.makeText(getApplicationContext(), ""+position, Toast.LENGTH_LONG).show();
 
-            switch (position) {
-                case 0:
-                    return new Bruce();
-                case 1:
-                    return new Chris();
-                case 2:
-                    return new Cleveland();
-                case 3:
-                    return new Herbert();
-                case 4:
-                    return new Mort();
-                case 5:
-                    return new Peter();
-                case 6:
-                    return new Quagmire();
-                case 7:
-                    return new Stewie();
-                case 8:
-                    return new Songs();
-                case 9:
-                    return new Info();
-                case 10:
-                    return new HiddenFragment();
+            try {
+                switch (position) {
+                    case 0:
+                        return new Home();
+                    case 1:
+                        return new Bruce();
+                    case 2:
+                        return new Brian();
+                    case 3:
+                        return new Chris();
+                    case 4:
+                        return new Cleveland();
+                    case 5:
+                        return new Herbert();
+                    case 6:
+                        return new Lois();
+                    case 7:
+                        return new Mort();
+                    case 8:
+                        return new Peter();
+                    case 9:
+                        return new Quagmire();
+                    case 10:
+                        return new Stewie();
+                    case 11:
+                        return new Songs();
+                    case 12:
+                        return new Info();
+                    case 13:
+                        return new HiddenFragment();
+                }
+                return new HiddenFragment();
+            } catch (Exception e) {
+                e.printStackTrace();
+                Toast.makeText(getApplicationContext(), "Unable to switch tabs", Toast.LENGTH_SHORT).show();
             }
-            return new HiddenFragment();
+            return null;
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 11;
+            return 14;
         }
     }
 }
